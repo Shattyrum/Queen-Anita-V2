@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3AD
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "https://t.me/deecee_x";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "";
+global.owner = process.env.OWNER_NUMBER || "8763834999";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -42,7 +42,7 @@ global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0x6d2R0THJ6N3dmZWp4a0JiY0Vac2Q3VkpKbGNjWlptdTNTRGdCbyswMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic21uMFlubUFqR2RVUm0zVXpzL2wrWkFXR1hWS0haTy9NK0czTTVrZEYxOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVSnVLQXlxZU56L3ZabHVIbjZsMU4yRTBPNGFzTVV6Q3BhTWsvV2xQQmwwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5OVk0bFBqVG8ybkRnMzRSdTJ6dytMUVM1bW9DUzh5NnJpTWdRUE1VSFRzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVCS3JHVE5welU5cFg0NzFXbzFFN2hER3Q0MzVzbUJDaGlzMytjUGFIRzg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InU0Zzh3YWJkUlRkSGN4M1I4SEZRRDc2Yy9tOVJjODJTb3RUb01HNzgyVkU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUJ0WUowWEx4YjhCb1dBOXlQa2J0RWFYazd1d3RaZUhYcmw5cHZvY1JXdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY09VRkVSeWxQeFBidFVjRVVXQ3pkd2RlU004NUZwekJ3SnRkcTdna2ZEOD0ifX0sInNpZ25h"
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || ".",
